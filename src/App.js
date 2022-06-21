@@ -10,7 +10,7 @@ import Carring from './components/Carring';
 function App() {
   return (
     <div>
-      <h3> Hospital CLone</h3>
+      <h1>JOHNS HOPKINS</h1>
       <Landingpage/>
       <Features />
       <Assistance />

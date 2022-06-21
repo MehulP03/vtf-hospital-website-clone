@@ -30,7 +30,7 @@ function Features() {
                             alt="whloe grains" sx={{height: '6rem', width:'8rem', alignContent: 'center'}}
                         />
                             <CardContent sx={{ p: 2, textAlign: "center" }}>
-                                <Typography variant="h4" component="div">Locations</Typography>
+                                <Typography variant="h4" component="div" sx={{ p: 2 }}>Locations</Typography>
                                 <Typography varient="body2" component="div">Find care in an area convinent to you</Typography>
                             </CardContent>
                         </Card>
@@ -45,7 +45,7 @@ function Features() {
                             alt="whloe grains" sx={{height: '6rem', width:'8rem', alignContent: 'center'}}
                         />
                             <CardContent sx={{ p: 2, textAlign: "center" }}>
-                                <Typography variant="h4" component="div">Appoinments</Typography>
+                                <Typography variant="h4" component="div" sx={{ p: 2 }}>Appoinments</Typography>
                                 <Typography varient="body2" component="div">Schedule an appointment online.</Typography>
                             </CardContent>
                         </Card>
@@ -60,7 +60,7 @@ function Features() {
                             alt="whloe grains" sx={{height: '6rem', width:'8rem', alignContent: 'center'}}
                         />
                             <CardContent sx={{ p: 2, textAlign: "center" }}>
-                                <Typography variant="h4" component="div" >MyChart</Typography>
+                                <Typography variant="h4" component="div" sx={{ p: 2 }}>MyChart</Typography>
                                 <Typography varient="body2" component="div">View test results, schedule most appointments and more.</Typography>
                             </CardContent>
                         </Card>

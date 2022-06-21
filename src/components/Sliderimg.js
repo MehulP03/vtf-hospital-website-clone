@@ -14,17 +14,17 @@ const SliderImg = (props) => {
   };
 
   return (
-    <Container>
+    <Container  maxWidth="lg" sx={{p:6}}>
       <Slider {...CarPos}>
         <div>
           <Grid container spacing={2}>
-            <Grid item xs={6}>
-                <img src="https://www.hopkinsmedicine.org/johns-hopkins-childrens-center/_images/usnwr/usnwr-22-23/jhmSlide-640x274.jpg" alt="carousel-1" />
+            <Grid item xs={6} sx={{p:2}}>
+                <img src="https://www.hopkinsmedicine.org/johns-hopkins-childrens-center/_images/usnwr/usnwr-22-23/jhmSlide-640x274.jpg" alt="carousel-1"  />
             </Grid>
-            <Grid item xs={6}>
-                <h3>aifgvuhsdiguiusgsiudgfpiug</h3><br/>
+            <Grid item xs={6} sx={{p:2}}>
+                <h3>Top ranked by U.S. News & World Report – Again!</h3><br/>
                 {/* <hr /> same hr woh yelloe wale jaisa */}<br/>
-                <p>aosfihsdipughpsiug hu igh  aioueghi i uhawiu hg ha rg  gu gh wiuhg iufg iudg iug</p>
+                <p>Johns Hopkins Children’s Center has again improved its ranking on U.S. News & World Report’s Best Children’s Hospitals list.</p>
             </Grid>
           </Grid>
         </div>

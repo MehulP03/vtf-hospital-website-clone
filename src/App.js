@@ -6,6 +6,7 @@ import Featurestories from './components/Featurestories';
 import Morenews from './components/Morenews';
 import SliderImg from './components/Sliderimg';
 import Landingpage from './components/Landingpage';
+import Carring from './components/Carring';
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
       <Landingpage/>
       <Features />
       <Assistance />
+      <Carring />
       <Caresafely />
       <SliderImg/>
       <Featurestories/>

@@ -7,11 +7,11 @@ function Features() {
             <Grid container spacing={2}>
                 <Grid item xs={3}>
                     <CardActionArea>
-                        <Card sx={{height: 300, p: 2 }}>
+                        <Card sx={{height: 300, p: 2 , textAlign: 'center'}}>
                         <CardMedia
                             component='img'
                             image='https://www.hopkinsmedicine.org/_images/_svg/stethoscope-blue.svg'
-                            alt="stethoscope-blue" sx={{height: '8rem', width:'8rem', alignContent: 'center'}}
+                            alt="stethoscope-blue" sx={{height: 80, width:80, pl:10}}
                         />
                             <CardContent sx={{ p: 2, textAlign: "center" }} >
                                 <Typography variant="h4" component="div" sx={{ p: 2 }}>Doctors</Typography>
@@ -27,7 +27,7 @@ function Features() {
                         <CardMedia
                             component='img'
                             image='https://www.hopkinsmedicine.org/_images/_svg/location-blue.svg'
-                            alt="whloe grains" sx={{height: '6rem', width:'8rem', alignContent: 'center'}}
+                            alt="whloe grains" sx={{height: 80, width:80, pl:10}}
                         />
                             <CardContent sx={{ p: 2, textAlign: "center" }}>
                                 <Typography variant="h4" component="div" sx={{ p: 2 }}>Locations</Typography>
@@ -42,7 +42,7 @@ function Features() {
                         <CardMedia
                             component='img'
                             image='https://www.hopkinsmedicine.org/_images/_svg/appointment-blue.svg'
-                            alt="whloe grains" sx={{height: '6rem', width:'8rem', alignContent: 'center'}}
+                            alt="whloe grains" sx={{height: 80, width:80, pl:10}}
                         />
                             <CardContent sx={{ p: 2, textAlign: "center" }}>
                                 <Typography variant="h4" component="div" sx={{ p: 2 }}>Appoinments</Typography>
@@ -57,7 +57,7 @@ function Features() {
                         <CardMedia
                             component='img'
                             image='https://www.hopkinsmedicine.org/_images/_svg/mychart-blue.svg'
-                            alt="whloe grains" sx={{height: '6rem', width:'8rem', alignContent: 'center'}}
+                            alt="whloe grains" sx={{height: 80, width:80, pl:10}}
                         />
                             <CardContent sx={{ p: 2, textAlign: "center" }}>
                                 <Typography variant="h4" component="div" sx={{ p: 2 }}>MyChart</Typography>

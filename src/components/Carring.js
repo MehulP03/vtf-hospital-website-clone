@@ -24,6 +24,9 @@ function Carring() {
           <img src='https://www.hopkinsmedicine.org/sebin/p/i/masks.png' alt='masks' height={200} wight={200} />
         </Grid>
       </Grid>
+      <Typography component="div" fontSize={'16px'} lineHeight={1.75} sx={{p:2}}>
+      Neck gaiters, bandanas, masks with exhalation valves, or clear shield-like face masks are not permitted to be worn as face coverings at Johns Hopkins Medicine facilities.
+          </Typography>
     </Container>
   )
 }

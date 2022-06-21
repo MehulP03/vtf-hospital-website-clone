@@ -4,7 +4,7 @@ import React from 'react'
 function Caresafely() {
     return (
         
-        <div style={{backgroundColor: '#f5f5f5'}}>
+        <div style={{backgroundColor: '#f5f5f5', marginTop: '20px'}}>
             <Container maxWidth="lg" sx={{ p: 6 , backgroundColor: '#f5f5f5'}}>
             <Typography  component="div" sx={{ pb: 4, textAlign: 'center', fontSize: '2.2rem' }}>Return to Care Safely</Typography>
             <Grid container spacing={3} sx={{ alignItems: 'center', px: 2 }}>

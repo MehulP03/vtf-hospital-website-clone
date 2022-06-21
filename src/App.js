@@ -4,7 +4,7 @@ import Features from './components/Features';
 import Caresafely from './components/Caresafely'
 import Featurestories from './components/Featurestories';
 import Morenews from './components/Morenews';
-// import SliderImg from './components/Sliderimg';
+import SliderImg from './components/Sliderimg';
 function App() {
   return (
     <div>
@@ -12,7 +12,7 @@ function App() {
       <Features />
       <Assistance />
       <Caresafely />
-      {/* <SliderImg/> */}
+      <SliderImg/>
       <Featurestories/>
       <Morenews/>
     </div>

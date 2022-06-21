@@ -16,26 +16,29 @@ function Caresafely() {
                                 <img src="https://www.hopkinsmedicine.org/_images/_svg/info-circle-blue.svg" alt="information" height={125} width={125} />
                                 <Typography variant="h5" component="div" sx={{ p: 2 }}>Vaccine Information</Typography>
                             </CardContent>
-
                         </Card>
                     </CardActionArea>
                 </Grid>
 
                 <Grid item xs={4}>
+                <CardActionArea>
                     <Card sx={{ height: 200, p: 2 }}>
                         <CardContent sx={{ p: 2, textAlign: "center" }}>
                             <img src='https://www.hopkinsmedicine.org/_images/_svg/virus-blue.svg' alt='COVID' height={125} width={125} />
                             <Typography variant="h5" component="div" sx={{ p: 2 }}>Locations</Typography>
                         </CardContent>
                     </Card>
+                    </CardActionArea>
                 </Grid>
                 <Grid item xs={4}>
+                <CardActionArea>
                     <Card sx={{ height: '200px', p: 2 }}>
                         <CardContent sx={{ p: 2, textAlign: "center" }}>
                             <img src='https://www.hopkinsmedicine.org/_images/_svg/health-blue.svg' alt='COVID' height={125} width={125} />
                             <Typography variant="h5" component="div" sx={{ p: 2 }}>Appoinments</Typography>
                         </CardContent>
                     </Card>
+                    </CardActionArea>
                 </Grid>
             </Grid>
         </Container >

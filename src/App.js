@@ -7,10 +7,11 @@ import Morenews from './components/Morenews';
 import SliderImg from './components/Sliderimg';
 import Landingpage from './components/Landingpage';
 import Carring from './components/Carring';
+import Navbar from './components/Navbar';
 function App() {
   return (
     <div>
-      <h1>JOHNS HOPKINS</h1>
+      <Navbar/>
       <Landingpage/>
       <Features />
       <Assistance />

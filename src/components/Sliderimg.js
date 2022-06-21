@@ -28,9 +28,42 @@ const SliderImg = (props) => {
             </Grid>
           </Grid>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div>
+          <Grid container spacing={2}>
+            <Grid item xs={6}>
+                <img src="https://www.hopkinsmedicine.org/johns-hopkins-childrens-center/_images/usnwr/usnwr-22-23/jhmSlide-640x274.jpg" alt="carousel-1" />
+            </Grid>
+            <Grid item xs={6}>
+                <h3>aifgvuhsdiguiusgsiudgfpiug</h3><br/>
+                {/* <hr /> same hr woh yelloe wale jaisa */}<br/>
+                <p>aosfihsdipughpsiug hu igh  aioueghi i uhawiu hg ha rg  gu gh wiuhg iufg iudg iug</p>
+            </Grid>
+          </Grid>
+        </div>
+        <div>
+          <Grid container spacing={2}>
+            <Grid item xs={6}>
+                <img src="https://www.hopkinsmedicine.org/johns-hopkins-childrens-center/_images/usnwr/usnwr-22-23/jhmSlide-640x274.jpg" alt="carousel-1" />
+            </Grid>
+            <Grid item xs={6}>
+                <h3>aifgvuhsdiguiusgsiudgfpiug</h3><br/>
+                {/* <hr /> same hr woh yelloe wale jaisa */}<br/>
+                <p>aosfihsdipughpsiug hu igh  aioueghi i uhawiu hg ha rg  gu gh wiuhg iufg iudg iug</p>
+            </Grid>
+          </Grid>
+        </div>
+        <div>
+          <Grid container spacing={2}>
+            <Grid item xs={6}>
+                <img src="https://www.hopkinsmedicine.org/johns-hopkins-childrens-center/_images/usnwr/usnwr-22-23/jhmSlide-640x274.jpg" alt="carousel-1" />
+            </Grid>
+            <Grid item xs={6}>
+                <h3>aifgvuhsdiguiusgsiudgfpiug</h3><br/>
+                {/* <hr /> same hr woh yelloe wale jaisa */}<br/>
+                <p>aosfihsdipughpsiug hu igh  aioueghi i uhawiu hg ha rg  gu gh wiuhg iufg iudg iug</p>
+            </Grid>
+          </Grid>
+        </div>
       </Slider>
     </Container>
   );

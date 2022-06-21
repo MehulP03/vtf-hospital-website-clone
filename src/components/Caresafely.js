@@ -41,7 +41,7 @@ function Caresafely() {
                     </CardActionArea>
                 </Grid>
             </Grid>
-        </Container >
+        </Container >   
         </div>
     )
 }

@@ -8,6 +8,7 @@ import SliderImg from './components/Sliderimg';
 import Landingpage from './components/Landingpage';
 import Carring from './components/Carring';
 import Navbar from './components/Navbar';
+import FooterDetails from './components/FooterDetails';
 function App() {
   return (
     <div>
@@ -20,6 +21,7 @@ function App() {
       <SliderImg/>
       <Featurestories/>
       <Morenews/>
+      <FooterDetails/>
     </div>
 
   );

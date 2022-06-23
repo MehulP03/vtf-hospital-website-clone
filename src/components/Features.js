@@ -7,7 +7,7 @@ function Features() {
             <Grid container spacing={2}>
                 <Grid item xs={3}>
                     <CardActionArea>
-                        <Card sx={{height: 300, p: 2 , textAlign: 'center'}}>
+                        <Card sx={{height: 244, p: 2 , textAlign: 'center'}}>
                         <CardMedia
                             component='img'
                             image='https://www.hopkinsmedicine.org/_images/_svg/stethoscope-blue.svg'
@@ -23,7 +23,7 @@ function Features() {
 
                 <Grid item xs={3}>
                     <CardActionArea>
-                        <Card sx={{ height: 300, p: 2 }}>
+                        <Card sx={{ height: 244, p: 2 }}>
                         <CardMedia
                             component='img'
                             image='https://www.hopkinsmedicine.org/_images/_svg/location-blue.svg'
@@ -38,7 +38,7 @@ function Features() {
                 </Grid>
                 <Grid item xs={3}>
                     <CardActionArea>
-                        <Card sx={{ height: 300, p: 2 }}>
+                        <Card sx={{ height: 244, p: 2 }}>
                         <CardMedia
                             component='img'
                             image='https://www.hopkinsmedicine.org/_images/_svg/appointment-blue.svg'
@@ -53,7 +53,7 @@ function Features() {
                 </Grid>
                 <Grid item xs={3}   >
                     <CardActionArea>
-                        <Card sx={{ height: 300, p: 2 }}>
+                        <Card sx={{ height: 244, p: 2 }}>
                         <CardMedia
                             component='img'
                             image='https://www.hopkinsmedicine.org/_images/_svg/mychart-blue.svg'

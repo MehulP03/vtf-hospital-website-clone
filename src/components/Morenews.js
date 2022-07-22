@@ -7,22 +7,22 @@ function Morenews() {
 
             <Typography component="div" sx={{ pb: 4, fontSize: '2.2rem' }}>More News</Typography>
             <Grid container spacing={2} sx={{alignItems: 'center'}}>
-                <Grid item xs={6}>
+                <Grid item xs={6} sm={6}>
                     <div style={{padding: 2}}>
                         <Button >News & Publication</Button><br/>
                     </div>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={6} sm={6}>
                     <div style={{padding: 2}}>
                         <Button>News & Publication</Button><br/>
                     </div>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={6} sm={6}>
                     <div style={{padding: 2}}>
                         <Button>News & Publication</Button><br/>
                     </div>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={6} sm={6}>
                     <div style={{padding: 2}}>
                         <Button>News & Publication</Button>
                     </div>

@@ -5,7 +5,7 @@ function Assistance() {
   return (
     <Container maxWidth="lg" sx={{p:6}}>
         <Grid container spacing={2}>
-        <Grid item xs={6}>
+        <Grid item sm={6}>
             <Typography variant="h3" component="div">
                 Payments and Billing Assistance
             </Typography>
@@ -16,8 +16,9 @@ function Assistance() {
                 <li><Typography variant="body1" component="div"><a href="/"> No Surprises Act </a>: Learn about a new right you have as a patient.</Typography></li>
             </ul>
         </Grid>
-        <Grid item xs={6}>
-            <img src='../assets/billing-hero.jpg' alt="billing hero "/>
+        <Grid item sm={6}>
+            <img src='../assets/billing-hero.jpg' alt="billing hero " 
+            style={{height: "100%", width: "100%", paddingLeft: 10}}/>
         </Grid>
 
         </Grid>

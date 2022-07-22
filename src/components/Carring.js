@@ -4,7 +4,7 @@ function Carring() {
   return (
     <Container maxWidth="lg" sx={{ p: 6, backgroundColor: '#f3f1e6' }}>
       <Grid container spacing={2}>
-        <Grid item xs={8}>
+        <Grid item sm={8}>
           <Typography variant="h4" component="div" lineHeight={1.3} fontWeight={400} sx={{p:2}}>
             Caring for You & Others
           </Typography>
@@ -20,7 +20,7 @@ function Carring() {
             even if you are fully vaccinated and boosted against COVID-19. We will provide a mask if needed.
           </Typography>
         </Grid>
-        <Grid item sx={4}>
+        <Grid item sm={4}>
           <img src='https://www.hopkinsmedicine.org/sebin/p/i/masks.png' alt='masks' height={200} wight={200} />
         </Grid>
       </Grid>

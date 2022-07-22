@@ -8,7 +8,7 @@ function Featurestories() {
             <Typography component="div" sx={{ pb: 4, textAlign: 'center', fontSize: '2.2rem' }}>Featured Stories</Typography>
             <hr style={{ marginLeft: '45%', marginRight: '45%', color: 'yellow' }} />
             <Grid container spacing={3} sx={{ alignItems: 'center', px: 2 }}>
-                <Grid item xs={4}>
+                <Grid item sm={4}>
                     <Card sx={{height: 400, border: 'none'}}>
                         <CardMedia
                             component='img'
@@ -22,7 +22,7 @@ function Featurestories() {
                     </Card>
                 </Grid>
 
-                <Grid item xs={4}>
+                <Grid item sm={4}>
                     <Card sx={{height: 400}}>
                         <CardMedia
                             component='img'
@@ -36,7 +36,7 @@ function Featurestories() {
                         </CardContent>
                     </Card>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item sm={4}>
                     <Card sx={{height: 400}}>
                         <CardMedia
                             component='img'
